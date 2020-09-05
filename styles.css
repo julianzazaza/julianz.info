@@ -14,7 +14,7 @@
     padding-top: 5em;
     width: 50%;
     color: #F49C77;
-    min-width: 800px;
+    min-width: 1120px;
     font-family: 'Apercu';
     align-content: center;
 }
@@ -22,7 +22,7 @@
     width: 300px;
 }
 .right-text {
-    width: 500px;
+    width: 820px;
     padding: 1em;
     vertical-align: center;
 }
