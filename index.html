@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <!-- CSS Reset -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+/>
 <!-- Milligram CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+/>
 <!-- You should properly set the path from the main file. -->
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="assets/logo-color.png" />
+  </head>
 
-<head>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body class='main'>
-    <div class='logo'>
-        <img src='assets/logo-color.png' />
+  <body class="main">
+    <div class="logo">
+      <img src="assets/logo-color.png" />
     </div>
-    <div class='right-text'>
-        <h1>
-            Hello! I'm Julian Zabala.
-        </h1>
-        <h3>
-            Some people call me <span id="nickname"></span>.
-        </h3>
-        <p>
-            I'm a software engineer obsessed with cameras, keyboards, and my cat.
-        </p>
-        <h5><a href="https://www.linkedin.com/in/jzabala/">Professional Worky-Work Beep Boop Stuff</a></h5>
-        <h5><a href="https://www.instagram.com/julianzazaza/">Amateur Photo Art In A Grid Layout</a></h5>
-        <h5><a href="https://www.instagram.com/marble_tofu/">My Favorite Cat</a></h5>
-        <h5><a href="https://www.youtube.com/watch?v=5oVLvP8wAqU">Inner Monologuing On The Outside</a></h5>
-        <h5><a href="https://codejulen.github.io/dish">Movie Nights (WIP)</a></h5>
+    <div class="right-text">
+      <h1>Hello! I'm Julian Zabala.</h1>
+      <h3>Some people call me <span id="nickname"></span>.</h3>
+      <p>
+        I'm a software engineer obsessed with cameras, keyboards, and my cat.
+      </p>
+      <h5>
+        <a href="https://www.linkedin.com/in/jzabala/"
+          >Professional Worky-Work Beep Boop Stuff</a
+        >
+      </h5>
+      <h5>
+        <a href="https://www.instagram.com/julianzazaza/"
+          >Amateur Photo Art In A Grid Layout</a
+        >
+      </h5>
+      <h5>
+        <a href="https://www.instagram.com/marble_tofu/">My Favorite Cat</a>
+      </h5>
+      <h5>
+        <a href="https://www.youtube.com/watch?v=5oVLvP8wAqU"
+          >Inner Monologuing On The Outside</a
+        >
+      </h5>
+      <h5><a href="https://codejulen.github.io/dish">Movie Nights (WIP)</a></h5>
     </div>
-</body>
-
+  </body>
 </html>
 <script language="javascript">
-    function getNickname() {
-        var nicknames = [
-            'Juju',
-            'Julen',
-            'Beep Boop Computer Man'];
-        return nicknames[Math.floor((Math.random() * 2.99))];
-    }
+  function getNickname() {
+    var nicknames = ["Juju", "Julen", "Beep Boop Computer Man"];
+    return nicknames[Math.floor(Math.random() * 2.99)];
+  }
 
-    document.getElementById("nickname").innerHTML = getNickname();
+  document.getElementById("nickname").innerHTML = getNickname();
 </script>
