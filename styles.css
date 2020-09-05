@@ -32,3 +32,10 @@ h1 {
 html {
     background-color: #384B87;
 }
+.container {
+    text-align: center;
+}
+a {
+    color: #F49C77;
+    text-decoration: underline;
+}
