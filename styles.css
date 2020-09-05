@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     align-content: center;
     margin: auto;
-    padding-top: 5em;
+    padding: 2em;
     width: 50%;
     color: #F49C77;
     min-width: 1120px;
@@ -22,7 +22,7 @@
     width: 300px;
 }
 .right-text {
-    width: 820px;
+    width: 736px;
     padding: 1em;
     vertical-align: center;
 }
