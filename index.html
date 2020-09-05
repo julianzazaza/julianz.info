@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<!-- Google Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
 <!-- CSS Reset -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
 <!-- Milligram CSS -->
@@ -14,13 +12,29 @@
 
 <body class='main'>
     <div class='logo'>
-        <img src='assets/logo-color.png' /> </div>
+        <img src='assets/logo-color.png' />
+    </div>
     <div class='right-text'>
-        <h1>Hi,
-            I'm Julian.</h1>
-        <h4>Well,
-            technically I'm his website. But you get what I mean.</h4>
+        <h1>
+            Hello there.<br />I'm Julian Zabala.
+        </h1>
+        <h3>
+            Some people call me <span id="nickname"></span>.
+        </h3>
+        <p>I'm a software engineer obsessed with cameras, keyboards, and my cat.
+        </p>
     </div>
 </body>
 
 </html>
+<script language="javascript">
+    function getNickname() {
+        var nicknames = [
+            'Juju',
+            'Julen',
+            'Beep Boop Computer Man'];
+        return nicknames[Math.floor((Math.random() * 2.99))];
+    }
+
+    document.getElementById("nickname").innerHTML = getNickname();
+</script>
