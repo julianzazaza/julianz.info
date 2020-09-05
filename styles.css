@@ -24,6 +24,7 @@
 .right-text {
     width: 736px;
     padding-left: 1em;
+    padding-top: 0;
     vertical-align: center;
 }
 h1 {
