@@ -1,12 +1,15 @@
 @font-face {
     font-family: Bemio;
-    src: url('assets/bemio.otf');
+    src: url('assets/Bemio.otf');
 }
 @font-face {
     font-family: Apercu;
     src: url('assets/apercu_regular-webfont.ttf');
 }
 .main {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
     margin: auto;
     padding-top: 5em;
     width: 50%;
@@ -17,7 +20,11 @@
 }
 .logo {
     width: 300px;
-    align-items: center;
+}
+.right-text {
+    width: 500px;
+    padding: 1em;
+    vertical-align: center;
 }
 h1 {
     font-family: 'Bemio';
