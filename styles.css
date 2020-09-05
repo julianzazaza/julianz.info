@@ -29,13 +29,17 @@
 h1 {
     font-family: 'Bemio';
 }
+.row {
+    padding: 0;
+}
 html {
     background-color: #384B87;
 }
-.container {
-    text-align: center;
-}
-a {
+a:link, a:visited {
     color: #F49C77;
     text-decoration: underline;
+}
+a:hover, a:active {
+    background-color: #F49C77;
+    color: #384B87;
 }
