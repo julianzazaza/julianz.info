@@ -1,46 +1,48 @@
 @font-face {
-    font-family: Bemio;
-    src: url('assets/Bemio.otf');
+  font-family: Bemio;
+  src: url("assets/Bemio.otf");
 }
 @font-face {
-    font-family: Apercu;
-    src: url('assets/apercu_regular-webfont.ttf');
+  font-family: Apercu;
+  src: url("assets/apercu_regular-webfont.ttf");
 }
 .main {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    margin: auto;
-    padding: 2em;
-    width: 50%;
-    color: #F49C77;
-    min-width: 1120px;
-    font-family: 'Apercu';
-    align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: auto;
+  padding: 2em;
+  width: 50%;
+  color: #f49c77;
+  min-width: 1120px;
+  font-family: "Apercu";
+  align-content: center;
 }
 .logo {
-    width: 300px;
+  width: 300px;
 }
 .right-text {
-    width: 736px;
-    padding-left: 1em;
-    padding-top: 0;
-    vertical-align: center;
+  width: 736px;
+  padding-left: 2em;
+  padding-top: 0;
+  vertical-align: center;
 }
 h1 {
-    font-family: 'Bemio';
+  font-family: "Bemio";
 }
 .row {
-    padding: 0;
+  padding: 0;
 }
 html {
-    background-color: #384B87;
+  background-color: #384b87;
 }
-a:link, a:visited {
-    color: #F49C77;
-    text-decoration: underline;
+a:link,
+a:visited {
+  color: #f49c77;
+  text-decoration: underline;
 }
-a:hover, a:active {
-    background-color: #F49C77;
-    color: #384B87;
+a:hover,
+a:active {
+  background-color: #f49c77;
+  color: #384b87;
 }
