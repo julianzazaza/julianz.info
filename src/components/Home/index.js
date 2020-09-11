@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Grid } from "@material-ui/core";
 import logo from "./logo.png";
 import {
@@ -42,7 +42,7 @@ const Home = () => {
                 <a href="https://www.linkedin.com/in/jzabala/">LinkedIn </a>
               </h5>
               <h5>
-                <a href="https://codejulen.github.io/art">Photo Projects</a>
+                <Link to={{ pathname: "/art" }}>Photo Projects</Link>
               </h5>
               <h5>
                 <a href="https://www.youtube.com/watch?v=5oVLvP8wAqU">
@@ -50,9 +50,9 @@ const Home = () => {
                 </a>
               </h5>
               <h5>
-                <a href="https://codejulen.github.io/dish">
+                <Link to={{ pathname: "/dish" }}>
                   Project: Dishcord Movie Nights
-                </a>
+                </Link>
               </h5>
             </HomeBody>
           </Grid>
