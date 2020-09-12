@@ -38,3 +38,11 @@ Features:
 - Free API usage! Shoutout to [themoviedb](https://www.themoviedb.org/).
 - Filtering!
 - A heartfelt footer.
+
+### Credits
+
+My amazing friend Crystal made my logo, helped me figure out my brand identity, and recommends very good Korean YouTube content.
+
+- [Her Website](https://www.cryme.me/) (she's a UX/UI designer! hire her!)
+- [Her Twitch](https://www.twitch.tv/crydotme) (she streams art and hot chip eating!)
+- [Her Instagram](https://www.instagram.com/cry.me) (she really sets the bar for grid cohesiveness)
