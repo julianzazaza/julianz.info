@@ -1,68 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img align="right" width="200" src="https://www.toseewithmyeyes.com/static/media/logo.2927903d.png" />
 
-## Available Scripts
+# codejulen.github.io
 
-In the project directory, you can run:
+This react app was built out of boredom to track all of the amazing things that I do. Seriously, I'm not trying to brag, but I do a lot of cool things aside from coding all day, and I wanted a place to put everything together and show off my skills in multiple areas.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### A Photography Portfolio
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Simple portfolio, built with React, with much help from material-ui.
 
-### `npm test`
+You can find the changelog of updates [here](https://github.com/codejulen/codejulen.github.io/blob/master/src/components/Art/CHANGELOG.md).
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Things you'll find there:
 
-### `npm run build`
+- Beautiful portraits of friends
+- Porter Robinson references
+- Magical totally-not-photoshopped-ok-maybe-just-a-little-bit-photoshopped portraits of friends that are also flexible
+- An ode to Nobuyoshi Araki
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Things you won't find there:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Anything boring
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Dishcord Movie Nights
 
-### `npm run eject`
+A side project I built for Dish, a good friend of mine who streams on [Twitch](https://www.twitch.tv/imdishrag) and manages a public [Discord](https://discord.gg/tNBh8eK) server.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+You can find the changelog of updates [here](https://github.com/codejulen/codejulen.github.io/blob/master/src/components/Dish/CHANGELOG.md).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The project's intention was to track all of the movies that the text channel, **#film**, wanted to watch. Initially the list of movies was a Google Doc that made me cry a little. Organizing movies that people submitted and wanted to watch naturally felt like a programming question, and I thought, "_why not make something meaningful as a little bit of react practice?_"
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Features:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Good vibes only
+- Fun movie posters
+- Free API usage! Shoutout to [themoviedb](https://www.themoviedb.org/).
+- Filtering!
+- A heartfelt footer.
