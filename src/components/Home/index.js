@@ -48,20 +48,33 @@ const Home = () => {
                 cat.
               </p>
               <h5>
-                <a href="https://www.linkedin.com/in/jzabala/">LinkedIn </a>
-              </h5>
-              <h5>
-                <Link to={{ pathname: "/art" }}>Photo Projects</Link>
+                <Link to={{ pathname: "/art" }}>
+                  Clicky-Clack Photo Portfolio
+                </Link>
               </h5>
               <h5>
                 <a href="https://www.youtube.com/watch?v=5oVLvP8wAqU">
-                  Short Films
+                  Inner Monologuing On The Outside
                 </a>
               </h5>
               <h5>
                 <Link to={{ pathname: "/dish" }}>
-                  Project: Dishcord Movie Nights
+                  Movie Nights: A Dishcord Project
                 </Link>
+              </h5>
+              <h5>
+                <a href="https://www.linkedin.com/in/jzabala/">🔗 LinkedIn</a>
+              </h5>
+              <h5>
+                <a href="https://www.instagram.com/julianzazaza">
+                  ❤️ Instagram
+                </a>
+              </h5>
+              <h5>
+                <a href="https://github.com/codejulen">⭐ Github</a>
+              </h5>
+              <h5>
+                <a href="mailto:julian@toseewithmyeyes.com">📧 Email</a>
               </h5>
             </HomeBody>
           </Grid>

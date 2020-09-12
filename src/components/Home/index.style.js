@@ -2,24 +2,10 @@ import styled from "styled-components";
 
 export const HomeWrapper = styled.div`
   background-color: #384b87;
-  height: 100vh;
   color: #f49c77;
   display: flex;
   justify-content: center;
-`;
-
-export const HomeTitle = styled.h1`
-  font-family: "Bemio";
-  font-size: 48px;
-  font-weight: 300;
-  font-style: normal;
-  padding: 0 4px 0 4px;
-`;
-
-export const HomeBody = styled.div`
   font-family: "Apercu";
-  padding: 0 4px 0 4px;
-
   h3 {
     font-weight: 200;
   }
@@ -37,6 +23,19 @@ export const HomeBody = styled.div`
     background-color: #f49c77;
     color: #384b87;
   }
+`;
+
+export const HomeTitle = styled.h1`
+  font-family: "Bemio";
+  font-size: 48px;
+  font-weight: 300;
+  font-style: normal;
+  padding: 0 4px 0 4px;
+`;
+
+export const HomeBody = styled.div`
+  font-family: "Apercu";
+  padding: 0 4px 0 4px;
 `;
 
 export const HomeLogo = styled.img`
