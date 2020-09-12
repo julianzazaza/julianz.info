@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import GlobalFonts from "./fonts/fonts";
 import Home from "./components/Home";
 import Dish from "./components/Dish";
@@ -9,13 +9,13 @@ function App() {
   return (
     <div className="App">
       <GlobalFonts />
-      <Router>
+      <HashRouter>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/art" component={Art} />
           <Route exact path="/dish" component={Dish} />
         </Switch>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
