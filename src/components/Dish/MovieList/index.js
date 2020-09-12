@@ -72,7 +72,7 @@ const MovieList = () => {
           </center>
         </Grid>
       </Grid>
-      {focusedMovie && (
+      {focusedMovie.length === 1 && (
         <FocusedMovie
           title={focusedMovie[0].title}
           contributor={focusedMovie[0].submitter}

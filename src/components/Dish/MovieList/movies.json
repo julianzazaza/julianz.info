@@ -1,7 +1,7 @@
 [
   {
     "title": "Fandango",
-    "queue": true,
+    "watched": true,
     "submitter": "Dish",
     "overview": "Five college buddies from the University of Texas circa 1971 embark on a final road trip odyssey across the Mexican border before facing up to uncertain futures, in Vietnam and otherwise.",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/tSyh7XLyVOxUP3AwYCcgcyQxew0.jpg"
@@ -320,5 +320,41 @@
     "submitter": "Manny",
     "overview": "Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian.",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/4oD6VEccFkorEBTEDXtpLAaz0Rl.jpg"
+  },
+  {
+    "title": "The Breakfast Club",
+    "submitter": "Darc'e",
+    "overview": "Five high school students from different walks of life endure a Saturday detention under a power-hungry principal. The disparate group includes rebel John, princess Claire, outcast Allison, brainy Brian and Andrew, the jock. Each has a chance to tell his or her story, making the others see them a little differently -- and when the day ends, they question whether school will ever be the same.",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/c0bdxKVRevkw50LOnk6B8d3e4s.jpg"
+  },
+  {
+    "title": "Forrest Gump",
+    "submitter": "Darc'e",
+    "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/clolk7rB5lAjs41SD0Vt6IXYLMm.jpg"
+  },
+  {
+    "title": "Ferris Buellers Day Off",
+    "submitter": "Darc'e",
+    "overview": "A high school slacker embarks on a teenage odyssey in Chicago with his girlfriend and best friend, all the while trying to outwit his wily school principal and fed-up sister.",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qAk5wem526xJfLqEcMpMEftHgMp.jpg"
+  },
+  {
+    "title": "Lilo And Stitch",
+    "submitter": "Darc'e",
+    "overview": "As Stitch, a runaway genetic experiment from a faraway planet, wreaks havoc on the Hawaiian Islands, he becomes the mischievous adopted alien \"puppy\" of an independent little girl named Lilo and learns about loyalty, friendship, and 'ohana, the Hawaiian tradition of family.",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/d73UqZWyw3MUMpeaFcENgLZ2kWS.jpg"
+  },
+  {
+    "title": "Stand By Me",
+    "submitter": "Darc'e",
+    "overview": "After the death of a stranger, a writer recounts a childhood journey with his friends to find the body of a missing boy.",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vz0w9BSehcqjDcJOjRaCk7fgJe7.jpg"
+  },
+  {
+    "title": "The Mandalorian",
+    "submitter": "Darc'e",
+    "overview": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/BbNvKCuEF4SRzFXR16aK6ISFtR.jpg"
   }
 ]
