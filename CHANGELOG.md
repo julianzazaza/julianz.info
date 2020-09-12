@@ -2,6 +2,12 @@
 
 ## Home
 
+### 1.1.0 (2020-09-12)
+
+Features:
+
+- Title, Link, and meta description are all handled by react-helmet now.
+
 ### 1.0.0 (2020-09-08)
 
 - Initial release after conversion from static HTML to React.
@@ -26,6 +32,13 @@ Features:
 
 - Removed Fandango as the featured movie.
 - Added five (5) movies requested by Darc'e.
+
+Bugfixes:
+
+- Fixed a routing error that displayed 404s when accessing links without routing to them specifically.
+
+Developer Notes:
+
 - Migrated from separate dish repo to component within this repo.
 
 ### 1.2.0 (2020-09-09)
