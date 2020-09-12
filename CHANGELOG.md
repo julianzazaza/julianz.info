@@ -18,10 +18,6 @@ Features:
 
 - Initial release.
 
-### 1.0.0 (2020-09-10)
-
-- Initial release.
-
 ## Dishcord Movie Nights
 
 ### 1.3.0 (2020-09-12)
@@ -30,6 +26,7 @@ Features:
 
 - Removed Fandango as the featured movie.
 - Added five (5) movies requested by Darc'e.
+- Migrated from separate dish repo to component within this repo.
 
 ### 1.2.0 (2020-09-09)
 
