@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Grid } from "@material-ui/core";
+import { Helmet } from "react-helmet";
 import logo from "./logo.png";
 import {
   HomeTitle,
@@ -21,6 +22,14 @@ const Home = () => {
 
   return (
     <HomeWrapper>
+      <Helmet>
+        <title>Julian Zabala</title>
+        <meta
+          name="description"
+          content="An app worth telling your friends about"
+        />
+        <link rel="icon" type="image/png" href={logo} sizes="16x16" />
+      </Helmet>
       <HomeGrid>
         <Grid container>
           <Grid xs={12} sm={5}>
@@ -60,37 +69,6 @@ const Home = () => {
       </HomeGrid>
     </HomeWrapper>
   );
-  //     return (<div>      <div class="logo">
-  //     <img src="public/logo-color.png" />
-  //   </div>
-  //   <div class="right-text">
-  //     <h1>Hello! I'm Julian Zabala.</h1>
-  //     <h3>
-  //       Some people call me <span id="nickname"></span>.
-  //     </h3>
-  //     <p>
-  //       I'm a software engineer obsessed with cameras, keyboards, and my cat.
-  //     </p>
-  //     <h5>
-  //       <a href="https://www.linkedin.com/in/jzabala/">
-  //         Professional Worky-Work Beep Boop Stuff
-  //       </a>
-  //     </h5>
-  //     <h5>
-  //       <a href="https://codejulen.github.io/art">To See With My Eyes</a>
-  //     </h5>
-  //     <h5>
-  //       <a href="https://www.instagram.com/marble_tofu/">My Favorite Cat</a>
-  //     </h5>
-  //     <h5>
-  //       <a href="https://www.youtube.com/watch?v=5oVLvP8wAqU">
-  //         Inner Monologuing On The Outside
-  //       </a>
-  //     </h5>
-  //     <h5>
-  //       <a href="https://codejulen.github.io/dish">Dishcord Movie Nights</a>
-  //     </h5>
-  //   </div>)
 };
 
 export default Home;
