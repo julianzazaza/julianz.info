@@ -2,6 +2,17 @@
 
 ## Dishcord Movie Nights
 
+### 1.4.0 (2020-09-18)
+
+Features:
+
+- Added Kimi No Na Wa as the featured movie.
+- Added Hamilton, suggested by LordoBadgers. One day I'll find out their real name.
+
+Bugfixes:
+
+- Changed Hush from Batman: Hush to Hush (2016). Thanks Shannon for pointing that out!
+
 ### 1.3.0 (2020-09-12)
 
 Features:
