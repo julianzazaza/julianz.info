@@ -2,6 +2,10 @@
 
 ## Dishcord Movie Nights
 
+### 1.4.1 (2020-09-18)
+
+- Removed Kimi No Na Wa as featured movie.
+
 ### 1.4.0 (2020-09-18)
 
 Features:
