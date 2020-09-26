@@ -15,7 +15,6 @@
   },
   {
     "title": "3 Idiots",
-    "queue": true,
     "submitter": "Gabi",
     "overview": "In the tradition of \u201cFerris Bueller\u2019s Day Off\u201d comes this refreshing comedy about a rebellious prankster with a crafty mind and a heart of gold. Rascal. Joker. Dreamer. Genius... You've never met a college student quite like \"Rancho.\" From the moment he arrives at India's most prestigious university, Rancho's outlandish schemes turn the campus upside down\u2014along with the lives of his two newfound best friends. Together, they make life miserable for \"Virus,\" the school\u2019s uptight and heartless dean. But when Rancho catches the eye of the dean's sexy daughter, Virus sets his sights on flunking out the \"3 idiots\" once and for all.",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/k1iWMypGjk1b59oCHLtyfd4hw99.jpg"
@@ -364,5 +363,29 @@
     "submitter": "LordoBadgers",
     "overview": "Presenting the tale of American founding father Alexander Hamilton, this filmed version of the original Broadway smash hit is the story of America then, told by America now.",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/h1B7tW0t399VDjAcWJh8m87469b.jpg"
+  },
+  {
+    "title": "WandaVision",
+    "submitter": "Darc'e",
+    "overview": "Blending the style of a classic sitcom with the Marvel Cinematic Universe, Wanda Maximoff and the Vision—two super-powered beings living their ideal suburban lives—begin to suspect that everything is not as it seems.",
+    "poster": "https://image.tmdb.org/t/p/w1280/glKDfE6btIRcVB5zrjspRIs4r52.jpg"
+  },
+  {
+    "title": "Like Stars On Earth",
+    "submitter": "Manan",
+    "overview": "Ishaan Awasthi is an eight-year-old whose world is filled with wonders that no one else seems to appreciate. Colours, fish, dogs, and kites don't seem important to the adults, who are much more interested in things like homework, marks, and neatness. Ishaan cannot seem to get anything right in class; he is then sent to boarding school, where his life changes forever.",
+    "poster": "https://image.tmdb.org/t/p/w1280/wEHkOBcvEiNZpFU1O3HbZLoKSaE.jpg"
+  },
+  {
+    "title": "Fiddler On The Roof",
+    "submitter": "Gal",
+    "overview": "This lavishly produced and critically acclaimed screen adaptation of the international stage sensation tells the life-affirming story of Tevye (Topol), a poor milkman whose love, pride and faith help him face the oppression of turn-of-the-century Czarist Russia. Nominated for eight Academy Awards.",
+    "poster": "https://image.tmdb.org/t/p/w1280/v65PHx7Q6Jx0anyNeUOX07SJic9.jpg"
+  },
+  {
+    "title": "Lagaan: Once Upon A Time In India",
+    "submitter": "Manan",
+    "overview": "In 1890s India, an arrogant British commander challenges the harshly taxed residents of Champaner to a high-stakes cricket match.",
+    "poster": "https://image.tmdb.org/t/p/w1280/yNX9lFRAFeNLNRIXdqZK9gYrYKa.jpg"
   }
 ]
