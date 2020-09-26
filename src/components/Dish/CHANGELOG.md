@@ -2,9 +2,16 @@
 
 ## Dishcord Movie Nights
 
+### 1.5.1 (2020-09-25)
+
+Features:
+
+- Added The Road Within, How To Train Your Dragon
+
 ### 1.5.0 (2020-09-25)
 
 Features:
+
 - Removed 3 Idiots as featured movie.
 - Added WandaVision, Taare Zameen Par, Fiddler On The Roof, and Lagaan.
 

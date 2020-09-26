@@ -6,10 +6,7 @@ import { FocusedWrapper } from "./index.style";
 
 export const FocusedMovie = ({ poster, title, overview, contributor }) => {
   var dateFormat = "MMMM Do YYYY, h:mm a";
-  var showtimeTime = moment.utc(
-    "September 25 2020, 2:00",
-    "MMMM Do YYYY, h:mm a"
-  );
+  var showtimeTime = moment.utc("October 3 2020, 2:00", "MMMM Do YYYY, h:mm a");
   var localDate = showtimeTime.local();
   var duration = moment.duration(showtimeTime).subtract(moment());
   return (

@@ -23,6 +23,7 @@
   {
     "title": "Knives Out",
     "submitter": "Gabi",
+    "queue": true,
     "overview": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/pThyQovXQrw2m0s9x82twj48Jq4.jpg"
   },
@@ -388,5 +389,17 @@
     "submitter": "Manan",
     "overview": "In 1890s India, an arrogant British commander challenges the harshly taxed residents of Champaner to a high-stakes cricket match.",
     "poster": "https://image.tmdb.org/t/p/w1280/yNX9lFRAFeNLNRIXdqZK9gYrYKa.jpg"
+  },
+  {
+    "title": "The Road Within",
+    "submitter": "Maya",
+    "overview": "A young man with Tourette's Syndrome embarks on a road trip with his recently-deceased mother's ashes.",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kWKdJ3rsseUXeJUMBn4rsDg8xbX.jpg"
+  },
+  {
+    "title": "How To Train Your Dragon",
+    "submitter": "Zoya",
+    "overview": "As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes that he no longer wants to destroy it, and instead befriends the beast – which he names Toothless – much to the chagrin of his warrior father.",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ygGmAO60t8GyqUo9xYeYxSZAR3b.jpg"
   }
 ]
