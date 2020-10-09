@@ -2,6 +2,13 @@
 
 ## Dishcord Movie Nights
 
+### 1.5.2 (2020-10-08)
+
+Features:
+
+- Changed the focused movie to Moonrise Kingdom and updated the showtime
+- Added This Is Where I Leave You from Darc'e
+
 ### 1.5.1 (2020-09-25)
 
 Features:

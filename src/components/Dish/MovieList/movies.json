@@ -23,13 +23,14 @@
   {
     "title": "Knives Out",
     "submitter": "Gabi",
-    "queue": true,
     "overview": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/pThyQovXQrw2m0s9x82twj48Jq4.jpg"
   },
   {
     "title": "Moonrise Kingdom",
     "submitter": "Bin",
+    "watched": true,
+    "queue": true,
     "overview": "Set on an island off the coast of New England in the summer of 1965, Moonrise Kingdom tells the story of two twelve-year-olds who fall in love, make a secret pact, and run away together into the wilderness. As various authorities try to hunt them down, a violent storm is brewing off-shore \u2013 and the peaceful island community is turned upside down in more ways than anyone can handle.",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/wOgmhrSUwOuZJsQXf2GsI923N0f.jpg"
   },
@@ -401,5 +402,11 @@
     "submitter": "Zoya",
     "overview": "As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes that he no longer wants to destroy it, and instead befriends the beast – which he names Toothless – much to the chagrin of his warrior father.",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ygGmAO60t8GyqUo9xYeYxSZAR3b.jpg"
+  },
+  {
+    "title": "This Is Where I Leave You",
+    "submitter": "Darc'e",
+    "overview": "When their father passes away, four grown, world-weary siblings return to their childhood home and are requested -- with an admonition -- to stay there together for a week, along with their free-speaking mother and a collection of spouses, exes and might-have-beens. As the brothers and sisters re-examine their shared history and the status of each tattered relationship among those who know and love them best, they reconnect in hysterically funny and emotionally significant ways.",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/pwklGWRAp3YvOaDe1GNMTvwFNPB.jpg"
   }
 ]
