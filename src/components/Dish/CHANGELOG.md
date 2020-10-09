@@ -7,7 +7,7 @@
 Features:
 
 - Changed the focused movie to Moonrise Kingdom and updated the showtime
-- Added This Is Where I Leave You from Darc'e
+- Added the following movies: This Is Where I Leave You, Loot, In The Mood For Love, Groundhog Day, Hot Rod, Home Alone, La La Land
 
 ### 1.5.1 (2020-09-25)
 
