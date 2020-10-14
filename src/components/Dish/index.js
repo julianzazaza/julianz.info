@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "./Header";
 import MovieList from "./MovieList";
 import Footer from "./Footer";
 import { DishWrapper } from "./index.style";
 import { Helmet } from "react-helmet";
 import favicon from "./dishcord.ico";
+
 const Dish = () => {
   document.title = "Dishcord Movie Nights";
   return (

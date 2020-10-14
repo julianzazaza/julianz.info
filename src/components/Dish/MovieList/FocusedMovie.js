@@ -1,7 +1,7 @@
 import React from "react";
 import moment from "moment-timezone";
 import PropTypes from "prop-types";
-import { Grid, Paper, CardMedia, Typography } from "@material-ui/core";
+import { Grid, CardMedia } from "@material-ui/core";
 import { FocusedWrapper } from "./index.style";
 export const FocusedMovie = ({ poster, title, overview, contributor }) => {
   var dateFormat = "MMMM Do YYYY, h:mm a";

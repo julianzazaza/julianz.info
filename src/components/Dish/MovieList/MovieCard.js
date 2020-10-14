@@ -1,19 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Card from "@material-ui/core/Card";
 import Grid from "@material-ui/core/Grid";
-import { CardMedia } from "@material-ui/core";
-import CardContent from "@material-ui/core/CardContent";
-import CardHeader from "@material-ui/core/CardHeader";
 import { CardStyle } from "./index.style";
-export const MovieCard = ({
-  poster,
-  title,
-  overview,
-  contributor,
-  showtime,
-  watched,
-}) => {
+export const MovieCard = ({ poster, contributor, watched }) => {
   return (
     <Grid container item xs={12} sm={4}>
       <CardStyle watched={watched} poster={poster}>
