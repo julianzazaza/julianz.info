@@ -9,6 +9,10 @@ const Dish = () => {
   document.title = "Dishcord Movie Nights";
   return (
     <DishWrapper>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      />
       <Helmet>
         <title>Dishcord Movie Nights</title>
         <meta
@@ -17,7 +21,6 @@ const Dish = () => {
         />
         <link rel="icon" type="image/png" href={favicon} sizes="16x16" />
       </Helmet>
-      <Header />
       <MovieList />
       <Footer />
     </DishWrapper>

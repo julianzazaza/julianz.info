@@ -2,6 +2,13 @@
 
 ## Dishcord Movie Nights
 
+### 2.0.0 (2020-10-13)
+
+Features:
+
+- Removed a bunch of unnecessary flavor text in favor of a less wordy user experience.
+- Chose a movie for the next movie night at random and featured it at the top.
+
 ### 1.5.2 (2020-10-08)
 
 Features:

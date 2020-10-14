@@ -3,7 +3,6 @@ import moment from "moment-timezone";
 import PropTypes from "prop-types";
 import { Grid, Paper, CardMedia, Typography } from "@material-ui/core";
 import { FocusedWrapper } from "./index.style";
-
 export const FocusedMovie = ({ poster, title, overview, contributor }) => {
   var dateFormat = "MMMM Do YYYY, h:mm a";
   var showtimeTime = moment.utc(
@@ -14,34 +13,20 @@ export const FocusedMovie = ({ poster, title, overview, contributor }) => {
   var duration = moment.duration(showtimeTime).subtract(moment());
   return (
     <FocusedWrapper>
-      <Paper elevation={3}>
-        <h1>
-          <span>Up Next</span>
-        </h1>
-        <Grid container spacing={1}>
-          <Grid item xs={12} sm={3}>
-            <CardMedia component="img" image={poster} />
-          </Grid>
-          <Grid item xs={12} sm={9}>
-            <p>
-              <Typography gutterBottom variant="body" component="h1">
-                {title}
-              </Typography>
-              <Typography gutterBottom variant="body" component="h3">
-                Showtime: {localDate.format(dateFormat)} (that's in{" "}
-                {duration.humanize()}
-                !)
-              </Typography>
-              <Typography gutterBottom variant="body" component="h4">
-                Submitted By: {contributor}
-              </Typography>
-              <Typography gutterBottom variant="body" component="p">
-                {overview}
-              </Typography>
-            </p>
-          </Grid>
+      <Grid container spacing={1}>
+        <Grid item xs={12} sm={3}>
+          <CardMedia component="img" image={poster} />
         </Grid>
-      </Paper>
+        <Grid item xs={12} sm={9}>
+          <h1>{title}</h1>
+          <h2>
+            {localDate.format(dateFormat)} (that's in {duration.humanize()}
+            !)
+          </h2>
+          <span>{overview}</span>
+          <p>Thanks for submitting this one, {contributor}!</p>
+        </Grid>
+      </Grid>
     </FocusedWrapper>
   );
 };

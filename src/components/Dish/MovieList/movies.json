@@ -1,7 +1,7 @@
 [
   {
     "title": "Fandango",
-    "watched": true,
+    "showtime": "September 12 2020",
     "submitter": "Dish",
     "overview": "Five college buddies from the University of Texas circa 1971 embark on a final road trip odyssey across the Mexican border before facing up to uncertain futures, in Vietnam and otherwise.",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/tSyh7XLyVOxUP3AwYCcgcyQxew0.jpg"
@@ -9,34 +9,35 @@
   {
     "title": "Kimi No Na Wa",
     "submitter": "Rhys",
-    "watched": true,
+    "showtime": "September 19 2020",
     "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki\u2019s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/q719jXXEzOoYaps6babgKnONONX.jpg"
   },
   {
     "title": "3 Idiots",
     "submitter": "Gabi",
-    "watched": true,
+    "showtime": "September 26 2020",
     "overview": "In the tradition of \u201cFerris Bueller\u2019s Day Off\u201d comes this refreshing comedy about a rebellious prankster with a crafty mind and a heart of gold. Rascal. Joker. Dreamer. Genius... You've never met a college student quite like \"Rancho.\" From the moment he arrives at India's most prestigious university, Rancho's outlandish schemes turn the campus upside down\u2014along with the lives of his two newfound best friends. Together, they make life miserable for \"Virus,\" the school\u2019s uptight and heartless dean. But when Rancho catches the eye of the dean's sexy daughter, Virus sets his sights on flunking out the \"3 idiots\" once and for all.",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/k1iWMypGjk1b59oCHLtyfd4hw99.jpg"
   },
   {
     "title": "Knives Out",
     "submitter": "Gabi",
-    "watched": true,
+    "showtime": "October 3 2020",
     "overview": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/pThyQovXQrw2m0s9x82twj48Jq4.jpg"
   },
   {
     "title": "Moonrise Kingdom",
     "submitter": "Bin",
-    "queue": true,
+    "showtime": "October 10 2020",
     "overview": "Set on an island off the coast of New England in the summer of 1965, Moonrise Kingdom tells the story of two twelve-year-olds who fall in love, make a secret pact, and run away together into the wilderness. As various authorities try to hunt them down, a violent storm is brewing off-shore \u2013 and the peaceful island community is turned upside down in more ways than anyone can handle.",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/wOgmhrSUwOuZJsQXf2GsI923N0f.jpg"
   },
   {
     "title": "Perfect Blue",
     "submitter": "Bin",
+    "showtime": "October 17 2020",
     "overview": "A retired pop singer turned actress' sense of reality is shaken when she is stalked by an obsessed fan and seemingly a ghost of her past.",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/79vujbsWEbX4dzffBV541QXN6sf.jpg"
   },
@@ -127,7 +128,7 @@
   {
     "title": "Porco Rosso",
     "submitter": "JJ",
-    "watched": true,
+    "showtime": "August 8 2020",
     "overview": "In Italy in the 1930s, sky pirates in biplanes terrorize wealthy cruise ships as they sail the Adriatic Sea. The only pilot brave enough to stop the scourge is the mysterious Porco Rosso, a former World War I flying ace who was somehow turned into a pig during the war. As he prepares to battle the pirate crew's American ace, Porco Rosso enlists the help of spunky girl mechanic Fio Piccolo and his longtime friend Madame Gina.",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/byKAndF6KQSDpGxp1mTr23jPbYp.jpg"
   },
@@ -140,7 +141,7 @@
   {
     "title": "Spirited Away",
     "submitter": "JJ",
-    "watched": true,
+    "showtime": "August 15 2020",
     "overview": "The people that brought the film Sen to Chihiro no kamikakushi (2001) (a.k.a. \"Spirited Away\") to the US explain how it was converted into English, with some minor confusion between languages, and how well it did in both Japan and America.",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/x1iaVnI4mTaETwAKTLyIAKFwQSJ.jpg"
   },
@@ -219,13 +220,14 @@
   {
     "title": "Star Wars Episode I: The Phantom Menace",
     "submitter": "Darc'e",
-    "watched": true,
+    "showtime": "August 28 2020",
     "overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6wkfovpn7Eq8dYNKaG5PY3q2oq6.jpg"
   },
   {
     "title": "Star Wars Episode II: Attack Of The Clones",
     "submitter": "Darc'e",
+    "showtime": "October 13 2020",
     "overview": "Following an assassination attempt on Senator Padm\u00e9 Amidala, Jedi Knights Anakin Skywalker and Obi-Wan Kenobi investigate a mysterious plot that could change the galaxy forever.",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/oZNPzxqM2s5DyVWab09NTQScDQt.jpg"
   },
