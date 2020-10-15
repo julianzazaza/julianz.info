@@ -59,10 +59,10 @@ const MovieList = () => {
         <AccordionDetails>
           <Grid container justify="center" direction="row" xs={12}>
             <FocusedMovie
-              title={unseenMovieList[47].title}
-              contributor={unseenMovieList[47].submitter}
-              overview={unseenMovieList[47].overview}
-              poster={unseenMovieList[47].poster}
+              title={unseenMovieList[0].title}
+              contributor={unseenMovieList[0].submitter}
+              overview={unseenMovieList[0].overview}
+              poster={unseenMovieList[0].poster}
             />
           </Grid>
         </AccordionDetails>
