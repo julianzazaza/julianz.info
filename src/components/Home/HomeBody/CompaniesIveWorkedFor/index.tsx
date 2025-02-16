@@ -11,11 +11,10 @@ const CompaniesIveWorkedFor = () => {
         <>
             <hr /><center><h3>Companies I've Worked For</h3></center><hr />
             <FlexLogoWrapper>
-                <StyledLogo src={CiscoLogo} />
-                <StyledLogo src={SplunkLogo} />
-                <StyledLogo src={PhantomLogo} />
-                <StyledLogo src={IntelLogo} />
-
+                <StyledLogo src={CiscoLogo} alt="business logo" />
+                <StyledLogo src={SplunkLogo} alt="business logo" />
+                <StyledLogo src={PhantomLogo} alt="business logo" />
+                <StyledLogo src={IntelLogo} alt="business logo" />
             </FlexLogoWrapper>
         </>
     )

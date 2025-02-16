@@ -7,10 +7,10 @@ const ExternalLinks = () => {
         <hr />
         <p>
             <h3>
-                <img src={rgbdot} /> <a href="https://www.linkedin.com/in/jzabala/">LinkedIn</a>
+                <img src={rgbdot} alt="dot" /> <a href="https://www.linkedin.com/in/jzabala/">LinkedIn</a>
             </h3>
             <h3>
-                <img src={rgbdot} /> <a href="https://github.com/codejulen">Github</a>
+                <img src={rgbdot} alt="dot" /> <a href="https://github.com/codejulen">Github</a>
             </h3>
         </p></>)
 };
