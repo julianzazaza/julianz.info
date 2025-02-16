@@ -5,7 +5,7 @@ export const HomeWrapper = styled.div`
   color: #f49c77;
   display: flex;
   justify-content: center;
-  font-family: "Apercu";
+  // font-family: "Helvetica";
   h3 {
     font-weight: 200;
   }
