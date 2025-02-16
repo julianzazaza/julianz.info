@@ -8,6 +8,7 @@ export const FlexLogoWrapper = styled(Marquee)`
 `;
 
 export const StyledLogo = styled.img`
-  max-width: 13vw;
+  max-width: 300px;
+  max-height: 500px;
   background-color: #ffffff';
 `;
