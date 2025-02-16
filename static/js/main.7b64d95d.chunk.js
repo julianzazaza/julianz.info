@@ -20,7 +20,8 @@
   flex-direction: row;
   justify-content: space-between;
 `,N=h.a.img`
-  max-width: 13vw;
+  max-width: 300px;
+  max-height: 500px;
   background-color: #ffffff';
 `;var z=()=>l.a.createElement(l.a.Fragment,null,l.a.createElement("hr",null),l.a.createElement("center",null,l.a.createElement("h3",null,"Companies I've Worked For")),l.a.createElement("hr",null),l.a.createElement(F,{speed:25,autoFill:!0},l.a.createElement(N,{src:B.a,alt:"business logo"}),l.a.createElement(N,{src:M.a,alt:"business logo"}),l.a.createElement(N,{src:K.a,alt:"business logo"}),l.a.createElement(N,{src:J.a,alt:"business logo"}))),Y=a(30),S=a.n(Y),O=a(31),H=a.n(O),j=a(32),v=a.n(j);const R=h.a.div`
   display: flex;
@@ -37,4 +38,4 @@
   display: flex;
   width: 100vw;
 `;var q=()=>l.a.createElement(V,null,l.a.createElement(m,null),l.a.createElement(C,null),l.a.createElement(W,null));var T=function(){return l.a.createElement("div",{className:"App",style:{backgroundColor:"#ffe"}},l.a.createElement(o.a,null,l.a.createElement(c.c,null,l.a.createElement(c.a,{exact:!0,path:"/",component:q}))))};const X=document.getElementById("root");Object(A.createRoot)(X).render(l.a.createElement(n.StrictMode,null,l.a.createElement(T,null)))}},[[36,1,2]]]);
-//# sourceMappingURL=main.6acc8c90.chunk.js.map
+//# sourceMappingURL=main.7b64d95d.chunk.js.map
