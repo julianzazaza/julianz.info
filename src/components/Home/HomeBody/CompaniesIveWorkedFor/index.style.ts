@@ -1,9 +1,8 @@
 import styled from "styled-components";
+import Marquee from "react-fast-marquee";
 
-export const FlexLogoWrapper = styled.div`
+export const FlexLogoWrapper = styled(Marquee)`
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   flex-direction: row;
   justify-content: space-between;
 `;
