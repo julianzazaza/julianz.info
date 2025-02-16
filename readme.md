@@ -19,5 +19,12 @@ $ yarn install
 $ yarn start
 ```
 
+## Deploying
+
+Predeploy will build and deploy will push to the gh-pages branch.
+```
+$ yarn predeploy
+$ yarn deploy
+```
 # Credits
 Logo Design - [@cry.me on Instagram](https://www.instagram.com/cry.me)
