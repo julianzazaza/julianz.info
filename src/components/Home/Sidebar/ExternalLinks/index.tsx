@@ -3,6 +3,7 @@ import rgbdot from './rgbdot.gif';
 
 const ExternalLinks = () => {
     return (<>
+        <hr />
         <center><h2>EXTERNAL LINKS</h2></center>
         <hr />
         <p>

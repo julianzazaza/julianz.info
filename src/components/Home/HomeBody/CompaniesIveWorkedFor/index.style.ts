@@ -9,6 +9,6 @@ export const FlexLogoWrapper = styled.div`
 `;
 
 export const StyledLogo = styled.img`
-max-width: 30vh;
-background-color: #ffffff';
+  max-width: 13vw;
+  background-color: #ffffff';
 `;

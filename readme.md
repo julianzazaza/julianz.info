@@ -1,6 +1,6 @@
 # Overview
 
-I built this app to showcase my stuff during the COVID19 lockdown when all I wanted to do was deploy web apps.
+I built this app to showcase my stuff during the COVID19 lockdown when all I wanted to do was deploy web apps. It's a geocities-inspired app, written in Typescript, and deployed with Github Pages.
 
 # Development
 
