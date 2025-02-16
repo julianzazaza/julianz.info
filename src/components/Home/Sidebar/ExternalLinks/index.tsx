@@ -12,6 +12,10 @@ const ExternalLinks = () => {
             <h3>
                 <img src={rgbdot} alt="dot" /> <a href="https://github.com/codejulen">Github</a>
             </h3>
-        </p></>)
+            <h3>
+                <img src={rgbdot} alt="dot" /> <a href="https://github.com/codejulen/julianz.info">Source Code For This</a>
+            </h3>
+        </p>
+    </>)
 };
 export default ExternalLinks;

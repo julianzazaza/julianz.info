@@ -1,6 +1,5 @@
 import React from 'react';
 import ExternalLinks from './ExternalLinks';
-
 import { Wrapper } from './index.style';
 
 const Sidebar = () => {
