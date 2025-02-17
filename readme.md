@@ -2,6 +2,10 @@
 
 I built this app to showcase my stuff during the COVID19 lockdown when all I wanted to do was deploy web apps. It's a geocities-inspired app, written in Typescript, and deployed with Github Pages.
 
+# Releases
+
+There are no formal releases, though there is a [CHANGELOG](/src/CHANGELOG.md).
+
 # Development
 
 As much as I enjoy bleeding edge tech, I have strong biases towards technologies that I use at work. Here's what you need:
