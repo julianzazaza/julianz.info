@@ -7,7 +7,6 @@ const Home = () => {
   return (
     <Wrapper>
       <Helmet />
-      {/* <Sidebar /> */}
       <HomeBody />
     </Wrapper>
   );
