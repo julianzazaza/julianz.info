@@ -1,16 +1,22 @@
-import React, { useState, useEffect } from 'react';
+import React, { FC, useState, useEffect } from 'react';
 import { StyledTitle, Wrapper } from './index.style';
 
-const Title = () => {
-    const text = 'Welcome to my web site'
+interface Props {
+    text: string,
+    rainbow?: boolean,
+}
+
+const Title: FC<Props> = ({ text, rainbow }) => {
     const [hue, setHue] = useState(0);
 
     useEffect(() => {
-        const intervalId = setInterval(() => {
-            setHue((prevHue) => (prevHue + 10) % 360);
-        }, 100);
+        if (rainbow) {
+            const intervalId = setInterval(() => {
+                setHue((prevHue) => (prevHue + 10) % 360);
+            }, 100);
 
-        return () => clearInterval(intervalId);
+            return () => clearInterval(intervalId);
+        }
     }, []);
 
     return (

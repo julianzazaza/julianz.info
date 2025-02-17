@@ -14,7 +14,6 @@ export const StyledBody = styled.div`
   }
   p {
     width: 330px;
-    font-size: 20px;
     margin-left: 12px;
     padding-left: 24px;
     height: 100%;
