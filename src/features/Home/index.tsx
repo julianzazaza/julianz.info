@@ -1,6 +1,5 @@
 import React from 'react';
-import Helmet from './Helmet';
-import Sidebar from './Sidebar';
+import Helmet from 'components/Helmet';
 import HomeBody from './HomeBody';
 import { Wrapper } from "./index.style";
 
@@ -8,7 +7,7 @@ const Home = () => {
   return (
     <Wrapper>
       <Helmet />
-      <Sidebar />
+      {/* <Sidebar /> */}
       <HomeBody />
     </Wrapper>
   );

@@ -1,10 +1,12 @@
 import React from "react";
 import { HashRouter, Switch, Route } from "react-router-dom";
-import Home from "./components/Home";
+import Home from "features/Home";
+import GlobalFonts from "fonts/fonts";
 
 function App() {
   return (
-    <div className="App" style={{ backgroundColor: "#ffe" }}>
+    <div className="App">
+      <GlobalFonts />
       <HashRouter>
         <Switch>
           <Route exact path="/" component={Home} />
