@@ -1,6 +1,6 @@
 import React from 'react';
 // import WorkExamples from './WorkExamples';
-import MainWindow from './MainWindow';
+import MainWindow from 'components/MainWindow';
 import { HomeBodyWrapper } from './index.style';
 import Toolbar from 'components/Toolbar';
 

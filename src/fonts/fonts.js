@@ -8,6 +8,5 @@ export default createGlobalStyle`
     url(${sysfont}) format("opentype");
     font-weight: normal;
     font-style: normal;
-
 }
 `;
