@@ -1,4 +1,5 @@
 import React from 'react';
+import ExternalLinks from 'components/ExternalLinks';
 import { Wrapper, SpanButSpecial } from './index.style';
 
 const Toolbar = () => {
@@ -6,8 +7,8 @@ const Toolbar = () => {
     return (
         <Wrapper>
             <div>
-                <span>🍎</span>
-                <span>Links</span>
+                <span role="img" aria-label="apple emoji">🍎</span>
+                <ExternalLinks />
             </div>
             <SpanButSpecial>{timeEvent.toLocaleTimeString("en-US")}</SpanButSpecial>
         </Wrapper>
