@@ -133,4 +133,4 @@
     font-style: normal;
 }
 `;var H=function(){return l.a.createElement("div",{className:"App"},l.a.createElement(G,null),l.a.createElement(r.a,null,l.a.createElement(o.c,null,l.a.createElement(o.a,{exact:!0,path:"/",component:Q}))))};const Z=document.getElementById("root");Object(i.createRoot)(Z).render(l.a.createElement(a.StrictMode,null,l.a.createElement(H,null)))}},[[30,1,2]]]);
-//# sourceMappingURL=main.27600d45.chunk.js.map
+//# sourceMappingURL=main.aa889759.chunk.js.map
