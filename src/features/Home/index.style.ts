@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   background-color: #fff;
   height: 100vh;
   width: 100vw;
   display: flex;
-  font-family: "sysfont";
+  font-family: 'sysfont';
 `;

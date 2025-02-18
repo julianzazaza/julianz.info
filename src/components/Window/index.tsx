@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { FC, useState } from 'react';
 import Title from './Title';
 import Body from './Body';
 import Wrapper from './index.style';
@@ -24,10 +24,15 @@ interface Props {
 }
 
 const MainWindow: FC<Props> = ({ titleText, children, rainbow = false, position = DEFAULT_POSITION }) => {
+    const [minimized, setMinimized] = useState(false);
+
+    const handleOnClick = () => {
+        setMinimized(!minimized);
+    }
     return (
         <Wrapper {...position}>
-            <Title text={titleText} rainbow={rainbow} />
-            <Body children={children} />
+            <Title text={titleText} rainbow={rainbow} onClick={handleOnClick} />
+            <Body children={children} minimized={minimized} />
         </Wrapper>
     );
 };

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC, useState } from 'react';
 import styled from 'styled-components';
 
 const Outer = styled.div`
@@ -12,22 +12,37 @@ const Outer = styled.div`
     // margin: 1px;`
     ;
 
-const Box = styled.div`
-    background-color: #AAAAAA;
+
+interface BoxProps {
+    clicked: boolean;
+}
+
+const Box = styled.div<BoxProps>`
+    background-color: ${p => p.clicked ? '#FFFFFF' : '#AAAAAA'};
     border: 1px solid #cecefb;
     // outline: 1px solid #c0c0c0;
     width: 13px;
     height: 13px;
     position: relative;
-
 `;
+
 const InnerBox = styled.div`
     width: 13px;
     height: 13px;
-    box-shadow: 1px 1px;`
+    box-shadow: 1px 1px;
+    `;
 
-const MinMaxButton = () => {
-    return <Outer><Box><InnerBox /></Box></Outer>
+interface Props {
+    onClick: () => void;
+}
+const MinMaxButton: FC<Props> = ({ onClick }) => {
+
+    const [clicked, setClicked] = useState(false)
+    const handleOnClick = () => {
+        setClicked(!clicked);
+        onClick();
+    }
+    return <Outer><Box onClick={handleOnClick} clicked={clicked} ><InnerBox /></Box></Outer>
 }
 
 export default MinMaxButton;

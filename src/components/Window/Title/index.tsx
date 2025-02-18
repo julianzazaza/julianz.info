@@ -4,10 +4,11 @@ import { StyledTitle, Wrapper } from './index.style';
 
 interface Props {
     text: string,
+    onClick: () => void;
     rainbow?: boolean,
 }
 
-const Title: FC<Props> = ({ text, rainbow }) => {
+const Title: FC<Props> = ({ text, rainbow, onClick }) => {
     const [hue, setHue] = useState(0);
 
     useEffect(() => {
@@ -22,7 +23,7 @@ const Title: FC<Props> = ({ text, rainbow }) => {
 
     return (
         <Wrapper>
-            <MinMaxButton />
+            <MinMaxButton onClick={onClick} />
             <StyledTitle>
                 {rainbow && (
                     text.split('').map((char, index) => (
