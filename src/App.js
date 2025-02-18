@@ -1,17 +1,17 @@
-import React from "react";
-import { HashRouter, Switch, Route } from "react-router-dom";
-import Home from "features/Home";
-import GlobalFonts from "fonts/fonts";
+import React from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Home from 'features/Home';
+import GlobalFonts from 'fonts/fonts';
 
 function App() {
   return (
     <div className="App">
       <GlobalFonts />
-      <HashRouter>
+      <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
         </Switch>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
