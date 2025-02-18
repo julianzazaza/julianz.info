@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   text-align: center;
@@ -14,6 +14,7 @@ export const StyledTitle = styled.span`
   display: inline-block;
   font-weight: 300;
   font-style: bold;
-  font-size: 24px;
+  font-size: 20px;
   padding: 0 4px 0 4px;
+  line-height: 28px;
 `;

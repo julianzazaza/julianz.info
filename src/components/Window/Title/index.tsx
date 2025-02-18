@@ -22,17 +22,19 @@ const Title: FC<Props> = ({ text, rainbow }) => {
     return (
         <Wrapper>
             <StyledTitle>
-                {text.split('').map((char, index) => (
-                    <span
-                        key={index}
-                        style={{
-                            color: `hsl(${hue + index * 20}, 100%, 50%)`,
-                            lineHeight: '32px'
-                        }}
-                    >
-                        {char}
-                    </span>
-                ))}
+                {rainbow && (
+                    text.split('').map((char, index) => (
+                        <span
+                            key={index}
+                            style={{
+                                color: `hsl(${hue + index * 20}, 100%, 50%)`,
+                            }}
+                        >
+                            {char}
+                        </span>
+                    ))
+                )}
+                {!rainbow && (<span>{text}</span>)}
             </StyledTitle>
         </Wrapper>
     )

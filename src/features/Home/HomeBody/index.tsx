@@ -9,7 +9,7 @@ const HomeBody = () => {
     return (
         <HomeBodyWrapper>
             <Toolbar />
-            <Window titleText='Welcome to my web site' bodyContent={<WelcomeBody />} rainbow />
+            <Window titleText='Welcome to my web site' children={<WelcomeBody />} rainbow />
         </HomeBodyWrapper>)
 }
 

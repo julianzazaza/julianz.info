@@ -2,12 +2,12 @@ import React, { FC } from 'react';
 import { StyledBody } from './index.style'
 
 interface Props {
-    content: React.ReactNode,
+    children: React.ReactNode,
 }
 
-const Body: FC<Props> = ({ content }) => {
+const Body: FC<Props> = ({ children }) => {
 
-    return (<StyledBody>{content}</StyledBody>)
+    return (<StyledBody>{children}</StyledBody>)
 }
 
 export default Body;
