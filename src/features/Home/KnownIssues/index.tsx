@@ -21,7 +21,7 @@ const KnownIssues = () => {
         right: '0.25em'
     }
     return (
-        <Window titleText={titleText} children={content} position={position} />)
+        <Window titleText={titleText} children={content} position={position} collapsed />)
 }
 
 export default KnownIssues;

@@ -21,10 +21,11 @@ interface Props {
     children: React.ReactNode,
     rainbow?: boolean,
     position?: Position,
+    collapsed?: boolean,
 }
 
-const MainWindow: FC<Props> = ({ titleText, children, rainbow = false, position = DEFAULT_POSITION }) => {
-    const [minimized, setMinimized] = useState(false);
+const MainWindow: FC<Props> = ({ titleText, children, rainbow = false, position = DEFAULT_POSITION, collapsed = false }) => {
+    const [minimized, setMinimized] = useState(collapsed);
 
     const handleOnClick = () => {
         setMinimized(!minimized);
