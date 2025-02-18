@@ -32,7 +32,7 @@ const MainWindow: FC<Props> = ({ titleText, children, rainbow = false, position 
     }
     return (
         <Wrapper {...position}>
-            <Title text={titleText} rainbow={rainbow} onClick={handleOnClick} />
+            <Title text={titleText} rainbow={rainbow} onClick={handleOnClick} minimized={minimized} />
             <Body children={children} minimized={minimized} />
         </Wrapper>
     );
