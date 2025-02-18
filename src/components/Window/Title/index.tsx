@@ -1,4 +1,5 @@
 import React, { FC, useState, useEffect } from 'react';
+import MinMaxButton from './MinMaxButton';
 import { StyledTitle, Wrapper } from './index.style';
 
 interface Props {
@@ -21,6 +22,7 @@ const Title: FC<Props> = ({ text, rainbow }) => {
 
     return (
         <Wrapper>
+            <MinMaxButton />
             <StyledTitle>
                 {rainbow && (
                     text.split('').map((char, index) => (

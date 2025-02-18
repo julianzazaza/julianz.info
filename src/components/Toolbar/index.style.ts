@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   display: flex;
@@ -9,12 +9,12 @@ export const Wrapper = styled.div`
   min-height: 28px;
   border: 2px solid #cecefb;
   outline: 2px solid black;
-  background-color: #c0c0c0;
+  background-color: #ffffff;
   padding-left: 5px;
 
   span {
     line-height: 28px;
-    font-size: 18px;
+    font-size: 16px;
     padding: 0 8px 0 8px;
   }
 `;

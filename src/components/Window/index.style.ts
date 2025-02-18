@@ -11,10 +11,8 @@ export const Wrapper = styled.div<Props>`
   width: fit-content;
   height: fit-content;
   background-color: #ffffff;
-  border: 1px solid #cecefb;
   outline: 1px solid black;
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
+  box-shadow: 3px 3px;
   position: absolute;
   top: ${(p) => p?.top ?? 'inherit'};
   left: ${(p) => p?.left ?? 'inherit'};
