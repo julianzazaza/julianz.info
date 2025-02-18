@@ -1,16 +1,23 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+interface Props {
+  top: string;
+  left: string;
+  bottom: string;
+  right: string;
+}
+export const Wrapper = styled.div<Props>`
   width: 700px;
-  position: absolute;
   background-color: #ffffff;
   border: 1px solid #cecefb;
   outline: 1px solid black;
   border-bottom: 2px solid black;
   border-right: 2px solid black;
   position: absolute;
-  left: 1em;
-  top: 4em;
+  top: ${(p) => p.top};
+  left: ${(p) => p.left};
+  bottom: ${(p) => p.bottom};
+  right: ${(p) => p.right};
 `;
 
 export default Wrapper;

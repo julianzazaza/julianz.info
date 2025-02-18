@@ -17,7 +17,7 @@ const Title: FC<Props> = ({ text, rainbow }) => {
 
             return () => clearInterval(intervalId);
         }
-    }, []);
+    }, [rainbow]);
 
     return (
         <Wrapper>

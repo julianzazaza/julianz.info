@@ -18,7 +18,7 @@ const ExternalLinks = () => {
     return (
         <Wrapper>
             {options.map((option) => (
-                <a href={option.link} target="_blank">
+                <a href={option.link} target="_blank" rel="noopener noreferrer">
                     {option.label}
                 </a>
             ))}

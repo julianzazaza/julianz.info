@@ -2,7 +2,7 @@ import React from 'react';
 import logo from 'static/images/logo-BW.png';
 import { StyledBody } from './index.style'
 
-const Body = () => {
+const WelcomeBody = () => {
 
     return (<StyledBody>
         <div><img src={logo} alt="logo" width={256} height={256} /></div>
@@ -12,4 +12,4 @@ const Body = () => {
     </StyledBody>)
 }
 
-export default Body;
+export default WelcomeBody;
