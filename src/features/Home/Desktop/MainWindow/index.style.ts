@@ -5,14 +5,11 @@ export const StyledBody = styled.div`
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0 24px 0 24px;
   div {
     margin: 12px;
   }
   p {
-    width: 330px;
-    margin-left: 12px;
-    padding-left: 24px;
+    max-width: 330px;
     height: 100%;
   }
 `;

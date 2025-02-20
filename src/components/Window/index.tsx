@@ -11,20 +11,15 @@ export interface Position {
     zIndex?: string,
 }
 
-const DEFAULT_POSITION: Position = {
-    top: '4em',
-    left: '1em',
-}
-
 interface Props {
     titleText: string,
     children: React.ReactNode,
+    position: Position,
     rainbow?: boolean,
-    position?: Position,
     collapsed?: boolean,
 }
 
-const MainWindow: FC<Props> = ({ titleText, children, rainbow = false, position = DEFAULT_POSITION, collapsed = false }) => {
+const MainWindow: FC<Props> = ({ titleText, children, rainbow = false, position, collapsed = false }) => {
     const [minimized, setMinimized] = useState(collapsed);
 
     const handleOnClick = () => {
