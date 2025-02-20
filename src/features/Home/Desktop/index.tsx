@@ -2,15 +2,15 @@ import React from 'react';
 // import WorkExamples from './WorkExamples';
 import Window from 'components/Window';
 import Toolbar from 'components/Toolbar';
-import { HomeBodyWrapper } from './index.style';
+import { DesktopWrapper } from './index.style';
 import WelcomeBody from 'components/WelcomeBody';
 
-const HomeBody = () => {
+const Desktop = () => {
     return (
-        <HomeBodyWrapper>
+        <DesktopWrapper>
             <Toolbar />
             <Window titleText='Welcome to my web site' children={<WelcomeBody />} rainbow />
-        </HomeBodyWrapper>)
+        </DesktopWrapper>)
 }
 
-export default HomeBody;
+export default Desktop;
