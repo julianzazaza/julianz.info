@@ -9,8 +9,7 @@ const Outer = styled.div`
     height: 16px;
     position: absolute;
     left: 10px;
-    // margin: 1px;`
-    ;
+`;
 
 
 interface BoxProps {
