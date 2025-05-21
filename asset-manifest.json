@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.8f1c49e8.chunk.js",
-    "main.js.map": "/static/js/main.8f1c49e8.chunk.js.map",
+    "main.js": "/static/js/main.dea8dd6c.chunk.js",
+    "main.js.map": "/static/js/main.dea8dd6c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6c987d8b.js",
     "runtime-main.js.map": "/static/js/runtime-main.6c987d8b.js.map",
-    "static/js/2.6fb5bb75.chunk.js": "/static/js/2.6fb5bb75.chunk.js",
-    "static/js/2.6fb5bb75.chunk.js.map": "/static/js/2.6fb5bb75.chunk.js.map",
+    "static/js/2.ae8dbb57.chunk.js": "/static/js/2.ae8dbb57.chunk.js",
+    "static/js/2.ae8dbb57.chunk.js.map": "/static/js/2.ae8dbb57.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9dec129000e9fd2b8def60510be2276a.js": "/precache-manifest.9dec129000e9fd2b8def60510be2276a.js",
+    "precache-manifest.ce99f2b2397a1688b4265999f2d03a6c.js": "/precache-manifest.ce99f2b2397a1688b4265999f2d03a6c.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.6fb5bb75.chunk.js.LICENSE.txt": "/static/js/2.6fb5bb75.chunk.js.LICENSE.txt",
+    "static/js/2.ae8dbb57.chunk.js.LICENSE.txt": "/static/js/2.ae8dbb57.chunk.js.LICENSE.txt",
     "static/media/AmericanTypewriter.otf": "/static/media/AmericanTypewriter.2ddcad8c.otf",
     "static/media/logo-BW.png": "/static/media/logo-BW.e2c508f3.png",
     "static/media/logo.png": "/static/media/logo.2927903d.png",
@@ -17,7 +17,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6c987d8b.js",
-    "static/js/2.6fb5bb75.chunk.js",
-    "static/js/main.8f1c49e8.chunk.js"
+    "static/js/2.ae8dbb57.chunk.js",
+    "static/js/main.dea8dd6c.chunk.js"
   ]
 }
