@@ -8,7 +8,7 @@ const ContentWrapper = styled.div`
 
 const content = (
     <ContentWrapper>
-        1. Time above doesn't update <br />
+        <s>1. Time above doesn't update</s> <br />
         2. Dynamic UI nonexistent
     </ContentWrapper>
 )

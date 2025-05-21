@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import background from 'static/backgrounds/130.png';
+import background from 'static/backgrounds/21225.png';
 
 export const DesktopWrapper = styled.div`
   background-image: url(${background});
