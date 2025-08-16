@@ -12,7 +12,7 @@ const ExternalLinks = () => {
         },
         {
             label: "Source Code",
-            link: "https://github.com/codejulen/julianz.info"
+            link: "https://github.com/julianzazaza/julianz.info"
         },
     ]
     return (

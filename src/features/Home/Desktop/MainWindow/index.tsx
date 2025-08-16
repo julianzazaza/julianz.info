@@ -6,8 +6,8 @@ import { StyledBody } from './index.style'
 const BODY = (<StyledBody>
     <div><img src={logo} alt="logo" width={128} height={128} /></div>
     <>
-        <p>I'm Julian - a software engineer based in the San Francisco Bay Area.
-            I make cool B2B enterprise app things at <a href="https://splunk.com">Splunk</a>. Before that I was at <a href="https://www.splunk.com/en_us/about-splunk/acquisitions/phantom.html">Phantom</a>, and <a href="https://www.intel.com/content/www/us/en/research/overview.html">Intel Labs</a>.</p>
+        <p>I'm Julian - a software engineer based in the San Francisco Bay Area.</p>
+        <p>I used to make B2B cybersecurity apps, but now I make B2C mobile stuff.</p>
     </>
 </StyledBody>);
 

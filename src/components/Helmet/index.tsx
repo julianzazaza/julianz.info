@@ -5,7 +5,7 @@ import logo from './logo.png';
 const MyHelmet = () => {
 
     return (<Helmet>
-        <title>Julian Zabala</title>
+        <title>Julian</title>
         <meta
             name="description"
             content="A software engineer worth telling your friends about"
