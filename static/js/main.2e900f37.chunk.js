@@ -25,9 +25,9 @@
     font-size: 16px;
     padding: 0 8px 0 8px;
   }
-`,h=s.b.span`
+`,x=s.b.span`
   float: right;
-`;var x=()=>{const e=new Date,[t,n]=Object(a.useState)(e);return Object(a.useEffect)(()=>{const e=setInterval(()=>{n(new Date)},1e3);return()=>clearInterval(e)},[]),l.a.createElement(b,null,l.a.createElement("div",null,l.a.createElement("span",{role:"img","aria-label":"apple emoji"},"\ud83c\udf4e"),l.a.createElement(f,null)),l.a.createElement(h,null,t.toLocaleTimeString("en-US")))};const g=s.b.div`
+`;var g=()=>{const e=new Date,[t,n]=Object(a.useState)(e);return Object(a.useEffect)(()=>{const e=setInterval(()=>{n(new Date)},1e3);return()=>clearInterval(e)},[]),l.a.createElement(b,null,l.a.createElement("div",null,l.a.createElement("span",{role:"img","aria-label":"apple emoji"},"\ud83c\udf4e"),l.a.createElement(f,null)),l.a.createElement(x,null,t.toLocaleTimeString("en-US")))};const h=s.b.div`
     background-color: #cecefb;
     border-top: 1px solid black;
     border-left: 1px solid black;
@@ -46,21 +46,21 @@
     width: 13px;
     height: 13px;
     box-shadow: 1px 1px;
-    `;var E=e=>{let{onClick:t,minimized:n}=e;return l.a.createElement(g,null,l.a.createElement(v,{onClick:()=>{t()},minimized:n},l.a.createElement(A,null)))};const w=s.b.div`
+    `;var E=e=>{let{onClick:t,minimized:n}=e;return l.a.createElement(h,null,l.a.createElement(v,{onClick:()=>{t()},minimized:n},l.a.createElement(A,null)))};const w=s.b.div`
   text-align: center;
   background-color: #eeeeee;
   background: repeating-linear-gradient(0deg, #aaaaaa, #c0c0c0 2px, #c0c0c0 1px, #c0c0c0 4px);
   text-align: center;
   border: 1px solid #cecefb;
   height: 18px;
-`,y=s.b.span`
+`,k=s.b.span`
   background-color: #c0c0c0;
   display: inline-block;
   font-style: bold;
   font-size: 18px;
   padding: 0 4px 0 4px;
   line-height: 18px;
-`;var k=e=>{let{text:t,rainbow:n,onClick:i,minimized:r}=e;const[o,c]=Object(a.useState)(0);return Object(a.useEffect)(()=>{if(n){const e=setInterval(()=>{c(e=>(e+10)%360)},100);return()=>clearInterval(e)}},[n]),l.a.createElement(w,null,l.a.createElement(E,{onClick:i,minimized:r}),l.a.createElement(y,null,n&&t.split("").map((e,t)=>l.a.createElement("span",{key:t,style:{color:`hsl(${o+20*t}, 100%, 50%)`}},e)),!n&&l.a.createElement("span",null,t)))};const z=s.b.div`
+`;var y=e=>{let{text:t,rainbow:n,onClick:i,minimized:r}=e;const[o,c]=Object(a.useState)(0);return Object(a.useEffect)(()=>{if(n){const e=setInterval(()=>{c(e=>(e+10)%360)},100);return()=>clearInterval(e)}},[n]),l.a.createElement(w,null,l.a.createElement(E,{onClick:i,minimized:r}),l.a.createElement(k,null,n&&t.split("").map((e,t)=>l.a.createElement("span",{key:t,style:{color:`hsl(${o+20*t}, 100%, 50%)`}},e)),!n&&l.a.createElement("span",null,t)))};const z=s.b.div`
   display: flex;
   visibility: ${e=>e.minimized?"hidden":"inherit"};
   height: ${e=>e.minimized?"0px":"inherit"};
@@ -81,7 +81,7 @@
   bottom: ${e=>{var t;return null!==(t=null===e||void 0===e?void 0:e.bottom)&&void 0!==t?t:"inherit"}};
   right: ${e=>{var t;return null!==(t=null===e||void 0===e?void 0:e.right)&&void 0!==t?t:"inherit"}};
   z-index: ${e=>{var t;return null!==(t=null===e||void 0===e?void 0:e.zIndex)&&void 0!==t?t:"inherit"}};
-`;var $=e=>{let{titleText:t,children:n,rainbow:i=!1,position:r,collapsed:o=!1}=e;const[c,d]=Object(a.useState)(o);return l.a.createElement(I,r,l.a.createElement(k,{text:t,rainbow:i,onClick:()=>{d(!c)},minimized:c}),l.a.createElement(j,{children:n,minimized:c}))},B=n(24),C=n.n(B);const F=s.b.div`
+`;var $=e=>{let{titleText:t,children:n,rainbow:i=!1,position:r,collapsed:o=!1}=e;const[c,d]=Object(a.useState)(o);return l.a.createElement(I,r,l.a.createElement(y,{text:t,rainbow:i,onClick:()=>{d(!c)},minimized:c}),l.a.createElement(j,{children:n,minimized:c}))},C=n(24),B=n.n(C);const F=s.b.div`
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -93,14 +93,14 @@
     max-width: 330px;
     height: 100%;
   }
-`,S=l.a.createElement(F,null,l.a.createElement("div",null,l.a.createElement("img",{src:C.a,alt:"logo",width:128,height:128})),l.a.createElement(l.a.Fragment,null,l.a.createElement("p",null,"I'm Julian - a software engineer based in the San Francisco Bay Area."),l.a.createElement("p",null,"I used to make B2B cybersecurity apps, but now I make B2C mobile stuff."))),T={top:"5em",left:"0.25em",zIndex:"1"};var O=()=>l.a.createElement($,{titleText:"Welcome to my web site",children:S,position:T,rainbow:!0});const J=s.b.div`
+`,S=l.a.createElement(F,null,l.a.createElement("div",null,l.a.createElement("img",{src:B.a,alt:"logo",width:128,height:128})),l.a.createElement(l.a.Fragment,null,l.a.createElement("p",null,"I'm Julian - a software engineer. I used to make B2B cybersecurity apps, but now I make B2C mobile stuff."))),T={top:"5em",left:"0.25em",zIndex:"1"};var O=()=>l.a.createElement($,{titleText:"Welcome to my web site",children:S,position:T,rainbow:!0});const J=s.b.div`
     margin: 4px;
 `,Q=l.a.createElement(J,null,l.a.createElement("s",null,"1. Time above doesn't update")," ",l.a.createElement("br",null),"2. Dynamic UI nonexistent");var U=()=>l.a.createElement($,{titleText:"Known issues",children:Q,position:{top:"2.5em",right:"0.25em"},collapsed:!0}),D=n(25),G=n.n(D);const M=s.b.div`
   background-image: url(${G.a});
   background-repeat: repeat;
   width: 100%;
   height: 100%;
-`;var R=()=>l.a.createElement(M,null,l.a.createElement(x,null),l.a.createElement(O,null),l.a.createElement(U,null));const V=s.b.div`
+`;var R=()=>l.a.createElement(M,null,l.a.createElement(g,null),l.a.createElement(O,null),l.a.createElement(U,null));const V=s.b.div`
   background-color: #fff;
   height: 100vh;
   width: 100vw;
@@ -122,4 +122,4 @@
     font-style: normal;
 }
 `;var Y=function(){return l.a.createElement("div",{className:"App"},l.a.createElement(X,null),l.a.createElement(r.a,null,l.a.createElement(o.c,null,l.a.createElement(o.a,{exact:!0,path:"/",component:W}))))};const _=document.getElementById("root");Object(i.createRoot)(_).render(l.a.createElement(a.StrictMode,null,l.a.createElement(Y,null)))}},[[31,1,2]]]);
-//# sourceMappingURL=main.52ef3886.chunk.js.map
+//# sourceMappingURL=main.2e900f37.chunk.js.map
